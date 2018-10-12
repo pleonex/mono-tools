@@ -15,3 +15,12 @@ autom4te.cache
 missing
 mkinstalldirs
 install-sh
+
+
+docbrowser/Options.cs
+gendarme/gd2i
+gsharp/gsharp.desktop
+gui-compare/gui-compare
+install/
+compile
+mono-tools.spec
