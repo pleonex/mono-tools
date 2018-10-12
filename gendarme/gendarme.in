@@ -1,4 +1,4 @@
 #!/bin/bash
 BASE_DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/..
 
-exec @RUNTIME@ $MONO_OPTIONS $MONO_EXTRA_ARGS "$BASE_DIR"/lib/gendarme/gendarme.exe "$@"
+exec mono $MONO_OPTIONS $MONO_EXTRA_ARGS "$BASE_DIR"/lib/gendarme/gendarme.exe "$@"
